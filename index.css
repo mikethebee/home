@@ -1,4 +1,21 @@
+
 img {
   max-width: 100%;
   height: auto;
+}
+a.button {
+    display: inline-block;
+    width: 20vw; /* 20% of the viewport width */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF; /* Blue background */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+}
+
+a.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
